@@ -1,0 +1,15 @@
+D:\Pratham\Capgemini Training\github\bin\Debug\net10.0\github.exe
+D:\Pratham\Capgemini Training\github\bin\Debug\net10.0\github.deps.json
+D:\Pratham\Capgemini Training\github\bin\Debug\net10.0\github.runtimeconfig.json
+D:\Pratham\Capgemini Training\github\bin\Debug\net10.0\github.dll
+D:\Pratham\Capgemini Training\github\bin\Debug\net10.0\github.pdb
+D:\Pratham\Capgemini Training\github\obj\Debug\net10.0\github.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pratham\Capgemini Training\github\obj\Debug\net10.0\github.AssemblyInfoInputs.cache
+D:\Pratham\Capgemini Training\github\obj\Debug\net10.0\github.AssemblyInfo.cs
+D:\Pratham\Capgemini Training\github\obj\Debug\net10.0\github.csproj.CoreCompileInputs.cache
+D:\Pratham\Capgemini Training\github\obj\Debug\net10.0\github.sourcelink.json
+D:\Pratham\Capgemini Training\github\obj\Debug\net10.0\github.dll
+D:\Pratham\Capgemini Training\github\obj\Debug\net10.0\refint\github.dll
+D:\Pratham\Capgemini Training\github\obj\Debug\net10.0\github.pdb
+D:\Pratham\Capgemini Training\github\obj\Debug\net10.0\github.genruntimeconfig.cache
+D:\Pratham\Capgemini Training\github\obj\Debug\net10.0\ref\github.dll
