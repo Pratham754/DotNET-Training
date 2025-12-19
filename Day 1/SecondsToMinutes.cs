@@ -2,7 +2,7 @@ using System;
 
 namespace TimeConversion
 {
-    public class SecondsToMinutes
+    public class Github
     {
         static void Main()
         {

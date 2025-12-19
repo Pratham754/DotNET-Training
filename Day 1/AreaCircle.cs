@@ -1,6 +1,6 @@
 using System;
 
-namespace Circle
+namespace Github
 {
     class AreaCircle
     {

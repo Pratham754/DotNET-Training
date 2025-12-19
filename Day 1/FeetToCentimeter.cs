@@ -1,6 +1,6 @@
 using System;
 
-namespace FeetToCentimeter
+namespace Github
 {
     public class FeetToCentimeter
     {
