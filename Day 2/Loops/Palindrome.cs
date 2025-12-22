@@ -2,10 +2,14 @@ using System;
 
 namespace Github
 {
+    /// <summary>
+    /// Checks whether a string is a palindrome.
+    /// </summary>
     public class Palindrome
     {
         static void Main()
         {
+            #region Input
             Console.Write("Enter a string: ");
             string? input = Console.ReadLine();
             if (string.IsNullOrEmpty(input))
@@ -13,19 +17,17 @@ namespace Github
                 Console.WriteLine("Invalid input");
                 return;
             }
+            #endregion
+
+            #region Processing
             string reversed = "";
             for (int i = input.Length - 1; i >= 0; i--)
-            {
                 reversed += input[i];
-            }
-            if (input.Equals(reversed, StringComparison.OrdinalIgnoreCase))
-            {
-                Console.WriteLine("\"{0}\" is a palindrome.", input);
-            }
-            else
-            {
-                Console.WriteLine("\"{0}\" is not a palindrome.", input);
-            }
+
+            Console.WriteLine(input.Equals(reversed, StringComparison.OrdinalIgnoreCase)
+                ? $"\"{input}\" is a palindrome."
+                : $"\"{input}\" is not a palindrome.");
+            #endregion
         }
     }
 }

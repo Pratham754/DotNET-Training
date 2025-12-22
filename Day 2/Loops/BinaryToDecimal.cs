@@ -1,12 +1,20 @@
 using System;
+
 namespace Github
 {
+    /// <summary>
+    /// Converts a binary number to its decimal equivalent.
+    /// </summary>
     public class BinaryToDecimal
     {
         static void Main(string[] args)
         {
+            #region Input
             Console.WriteLine("Enter a binary number:");
             string binaryString = Console.ReadLine() ?? "";
+            #endregion
+
+            #region Processing
             int decimalValue = 0;
             int length = binaryString.Length;
 
@@ -25,6 +33,7 @@ namespace Github
             }
 
             Console.WriteLine($"The decimal value is: {decimalValue}");
+            #endregion
         }
     }
 }

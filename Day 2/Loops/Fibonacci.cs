@@ -2,37 +2,37 @@ using System;
 
 namespace Github
 {
+    /// <summary>
+    /// Displays the Fibonacci series up to a given number of terms.
+    /// </summary>
     public class Fibonacci
     {
         static void Main()
         {
-            try
+            #region Input
+            Console.Write("Enter a positive integer: ");
+            bool check = int.TryParse(Console.ReadLine(), out int n);
+            #endregion
+
+            #region Processing
+            if (check && n > 0)
             {
-                Console.Write("Enter a positive integer: ");
-                bool check = int.TryParse(Console.ReadLine(), out int n);
-                
-                if (check && n > 0)
+                int a = 0, b = 1, c;
+                Console.Write("Fibonacci series up to {0} terms: ", n);
+
+                for (int i = 1; i <= n; i++)
                 {
-                    int a = 0, b = 1, c;
-                    Console.Write("Fibonacci series up to {0} terms: ", n);
-                
-                    for (int i = 1; i <= n; i++)
-                    {
-                        Console.Write(a + " ");
-                        c = a + b;
-                        a = b;
-                        b = c;
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input");
+                    Console.Write(a + " ");
+                    c = a + b;
+                    a = b;
+                    b = c;
                 }
             }
-            catch (Exception ex)
+            else
             {
-                Console.WriteLine("An error occurred: " + ex.Message);
+                Console.WriteLine("Invalid input");
             }
+            #endregion
         }
     }
 }

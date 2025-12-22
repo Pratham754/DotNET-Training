@@ -2,12 +2,19 @@ using System;
 
 namespace Github
 {
+    /// <summary>
+    /// Displays a description based on the entered grade.
+    /// </summary>
     public class GradeDescription
     {
         static void Main()
         {
+            #region Input
             Console.Write("Enter the grade (E, V, G, A, F): ");
             char grade = Char.ToUpper(Console.ReadLine()[0]);
+            #endregion
+
+            #region Processing
             switch (grade)
             {
                 case 'E':
@@ -29,6 +36,7 @@ namespace Github
                     Console.WriteLine("Invalid Grade");
                     break;
             }
+            #endregion
         }
     }
 }
