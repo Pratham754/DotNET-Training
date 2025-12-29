@@ -8,5 +8,6 @@ public class Science
             throw new ArgumentException("Time must be greater than zero");
         
         Console.WriteLine(distance / time);
+        // Speed = distance / time;
     }
 }
