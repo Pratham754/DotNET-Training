@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../CommonLib/CommonLib.csproj" />
+  <Project Path="../ConsoleApp2/Mathslib.csproj" />
+  <Project Path="../Sciencelib/Sciencelib.csproj" />
+  <Project Path="ConsoleApp1.csproj" />
+</Solution>
