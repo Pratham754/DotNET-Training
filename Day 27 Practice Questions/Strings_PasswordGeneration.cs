@@ -47,7 +47,7 @@
 
 //     #region Main Method
 
-//     static void Main()
+//     public static void Main()
 //     {
 //         Console.WriteLine("Enter the username");
 //         string userName = Console.ReadLine();
